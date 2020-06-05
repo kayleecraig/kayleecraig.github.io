@@ -1,0 +1,284 @@
+body {
+    background-color: rgb(72, 50, 63);
+  }
+  
+  
+  /* Top Nav Links */
+  .topnav {
+    position: static;
+    margin: auto;
+  }
+  
+  .topnav a {
+      float: right;
+      color: lavenderblush;
+      text-align: center;
+      font-size: 17px;
+      font-family: 'Playfair Display', serif;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 16px 16px;
+    }
+  
+  /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: grey ;
+      height: 45%;
+    }
+  
+  
+  /* Intro Section */
+  .Name-Head {
+    color: whitesmoke;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold; 
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding-top: 50px; 
+  }
+    @media screen and (max-width: 1300px) {
+      .Name-Head {
+        font-size:3vw;
+      }
+    }
+  
+  .Intro-State {
+    box-sizing: border-box;
+    border: none;
+    background-color: none;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding-right: 60px;
+    text-align: left;
+    line-height: 300%;
+  }
+  
+  .Intro-State p {
+    color: lavenderblush;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 1px;
+  }
+    @media screen and (max-width: 1300px) {
+      .Intro-State p {
+        font-size:3vw;
+      }
+    }
+  
+  
+  /*Portfolio */
+  .Portfolio-Gallery {
+    position: static;
+    justify-content: center;
+    width:1220px;
+    margin:auto;
+  }
+  
+  .Portfolio-Gallery img {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+    @media screen and (max-width: 1300px) {
+      .Portfolio-Gallery {
+        width:100%; /* The width is 100%, when the viewport is 1300px or smaller */
+      }
+    }
+  
+      @media screen and (max-width: 1300px) {
+        .Portfolio-Gallery img {
+        justify-content: flex-start;
+        flex-direction: column; 
+        }
+      }
+  
+  
+  /* Resume Page */
+  .Name-Head2 {
+    color: whitesmoke;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold; 
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+    @media screen and (max-width: 1300px) {
+      .Name-Head2 {
+        font-size:2.5vw;
+      }
+    }
+  
+  .Name-Head2 a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight:bold;
+    color:black;
+    text-decoration: underline;
+    text-decoration-color: cornflowerblue;
+    padding-top: 5px;
+  }
+    @media screen and (max-width: 1300px) {
+      .Name-Head2 a {
+        font-size:3vw;
+      }
+    }
+  
+  .Work {
+    padding-top: 75px;
+  }
+  
+  .Work .column {
+    float: right;
+    width: 45%;
+    background-color: rgb(169, 169, 169, 0.3);
+    padding-left: 10px;
+    padding-right: 10px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .Work h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  
+  .Work h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  
+  .Work p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    color:lavenderblush;
+    text-align: left;
+    line-height: 200%;
+    letter-spacing: 1px;
+  }
+  
+  .Work h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight:normal;
+    color:lavenderblush;
+    text-align: center;
+    line-height: 200%;
+    letter-spacing: 1px;
+  }
+  
+  
+  
+  .Skills .column2 {
+    float: left;
+    width: 45%;
+    padding-left: 10px;
+  }
+  
+  .Skills h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 2px;
+  }
+  
+  .Skills h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 1px;
+  }
+  
+  
+  .Certificates {
+    display: flex;
+    flex: auto;
+    justify-content: flex-end space-evenly;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: 1275px; 
+    margin: auto;
+  }
+  
+  .Certificates img {
+    padding-right: 1px;
+    padding-left: 1px;
+  }
+    @media screen and (max-width: 1300px) {
+      .Certificates {
+        width:100%; /* The width is 100%, when the viewport is 1300px or smaller */
+      }
+    }
+  
+    @media screen and (max-width: 1300px) {
+      .Certificates img {
+        width:100%;
+        justify-content: flex-start;
+        flex-direction: column; /* The width is 100%, when the viewport is 1300px or smaller */
+      }
+    }
+  
+  
+  /* Portfolio Page Bottom */
+  .After-Portfolio {
+    text-align: center;
+    box-sizing: border-box;
+    border: none;
+    background-color: none;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    margin-right: auto;
+    margin-top: 300px;
+  }
+  
+  .After-Portfolio p {
+    color: lavenderblush;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 30px;
+  }
+  
+  .After-Portfolio a {
+    color: darkgray;
+    text-decoration: underline;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 20px;
+  }
+  
+  
+  /* Footer Bar */
+  .Footer {
+    box-sizing: border-box;
+    background-color: grey;
+    border: none;
+    width: auto;
+    height: 40px;
+    margin-top: 400px;
+  }
+  
+  .Footer p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top:5px;
+    padding-bottom: 5x;
+  }
