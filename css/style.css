@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(72, 50, 63);
+    background-color: rgb(95, 88, 88);
   }
   
   
@@ -22,7 +22,7 @@ body {
   
   /* Change the color of links on hover */
     .topnav a:hover {
-      background-color: grey ;
+      background-color:  rgb(187, 181, 181);
       height: 45%;
     }
   
@@ -83,6 +83,7 @@ body {
     display: inline-flex;
     justify-content: center;
     flex-direction: row;
+    border: 3px solid plum;
   }
     @media screen and (max-width: 1300px) {
       .Portfolio-Gallery {
@@ -117,9 +118,9 @@ body {
     font-size: 14px;
     font-style: normal;
     font-weight:bold;
-    color:rgb(169, 169, 169);
+    color:plum;
     text-decoration: underline;
-    text-decoration-color: cornflowerblue;
+    text-decoration-color: slateblue;
     padding-top: 5px;
   }
     @media screen and (max-width: 1300px) {
@@ -135,7 +136,7 @@ body {
   .Work .column {
     float: right;
     width: 45%;
-    background-color: rgb(169, 169, 169, 0.3);
+    background-color: rgb(221, 160, 221, 0.3);
     padding-left: 10px;
     padding-right: 10px;
     height: auto;
@@ -201,7 +202,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     font-weight: bold;
-    color: rgb(169, 169, 169);
+    color: rgb(103, 155, 187);
     letter-spacing: 1px;
   }
   
@@ -257,7 +258,7 @@ body {
   }
   
   .After-Portfolio a {
-    color: darkgray;
+    color:  rgb(103, 155, 187);
     text-decoration: underline;
     font-family: 'Raleway', sans-serif; 
     font-size: 20px;
@@ -267,7 +268,7 @@ body {
   /* Footer Bar */
   .Footer {
     box-sizing: border-box;
-    background-color: grey;
+    background-color: rgb(51, 51, 78);
     border: none;
     width: auto;
     height: 40px;
@@ -277,8 +278,9 @@ body {
   .Footer p {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: normal;
     padding-left: 30px;
     padding-top:5px;
     padding-bottom: 5x;
+    color: lavenderblush;
   }
